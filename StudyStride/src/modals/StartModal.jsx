@@ -67,7 +67,7 @@ export default function StartModal({ dueDate, setDueDate, dateMissing, dateInval
           {/* Task Due Date */}
           <div className="mb-6">
             <label htmlFor="due-date-input" className="block text-sm font-medium text-gray-700 mb-1">
-              Task Due Date <span className="text-red-500">*</span>{' '} <span className="text-xs text-gray-500">(over 15 min from now)</span>
+              Task Due Date <span className="text-red-500">*</span>
             </label>
             <input
               id="due-date-input"
@@ -87,7 +87,7 @@ export default function StartModal({ dueDate, setDueDate, dateMissing, dateInval
               <p className="mt-2 text-sm text-red-600">Due date is required.</p>
             )}
             {dateInvalid && (
-              <p className="mt-2 text-sm text-red-600">Due date has to be over 15 min from now.</p>
+              <p className="mt-2 text-sm text-red-600">Due date is required.</p>
             )}
           </div>
 
