@@ -87,7 +87,7 @@ export default function StartModal({ dueDate, setDueDate, dateMissing, dateInval
               <p className="mt-2 text-sm text-red-600">Due date is required.</p>
             )}
             {dateInvalid && (
-              <p className="mt-2 text-sm text-red-600">Due date has cannot be earlier than current time.</p>
+              <p className="mt-2 text-sm text-red-600">Due date cannot be earlier than today.</p>
             )}
           </div>
 
